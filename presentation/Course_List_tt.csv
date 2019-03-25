@@ -1,0 +1,81 @@
+Course Code,Short Name,Title of the course,Meant for,Instructors,Year,Size
+ECE105,BE,Basic Electronics,All + Repeaters,"Santosh Shah, R Tomar, Kanjlochan Jena, Deepak Nair",Y18,500
+ECE106,BE -Lab,Basic Electronics Lab,All + Repeaters,"Deepak Nair, Gaurav Chatterjee, Kanjlochan Jena, Santosh Shah, S
+Debnath",Y18,500
+CSE104,CP,Computer Programming,All + Repeaters,"Poonam Gera, Vibhor Kant, Sudheer Sharma, Anukriti Bansal",Y18,500
+CSE104(L),CP - Lab,Computer Programming Lab,All + Repeaters,"CSETBD1, 2, 3, 4, 5 and 6",Y18,500
+ENG105(B),TCE,Technical Communication in English,All + Repeaters,"Manju Dhariwal, Usha Kanoongo, Payel Pal",Y18,500
+MTH102,M - I,Mathematics I,All + Repeaters,"S K Gauttam, Manish Garg, Dheeerendra Mishra, Trivedi Harsh
+Chandrakant",Y18,500
+PHY102,CLP,Classical Physics,All + Repeaters,"Pomitha Ghoshal, Amit Neogi, G D Sharma, Subhayan Biswas",Y18,500
+MTH213,M - III,Mathematics III,All,"M K Kadalbajoo, Pratibha Garg, MTHTBD1, MTHTBD2",Y17,500
+ECE216,SEMI,Semiconductor Devices and Circuits,ECE,Kanjlochan Jena,Y17,150
+ECE332,EEM,Engineering Electromagnetics,ECE,"Deepak Nair, R Tomar",Y17,150
+ECE218,DL 1,Design Lab 1,ECE,"Deepak Nair, Gaurav Chatterjee",Y17,150
+ECE217,S&S,Signal and Systems,ECE+CCE,"Navneet Upadhyay, Nikhil Sharma",Y17,250
+ECE214,DCS,Digital Circuits and Systems,ECE+CCE,"Santosh Shah, Kapil Jainwal",Y17,250
+ECE214(L),DCS Lab,Digital Circuits and Systems Lab,ECE+CCE,Kusum Lata,Y17,250
+CSE226,AP,Advanced Programming,CSE+CCE,"Mukesh Jadon, Puneet Jain",Y17,350
+CSE227,IDBMS,Information and Database Management Systems,CSE+CCE,"Rajbir Kaur, Nirmal S",Y17,350
+CSE216,COA,Computer Organization and Architectures,CSE+CCE,"Preety Singh, Bharavi Mishra",Y17,350
+CSE228,OTA,Optimization Techniques and Applications,CSE,Jayprakash Kar,Y17,250
+HSS204,EFE,Economics for Engineers,1st 50% of CSE,S S Nehra,Y17,125
+HSS203,PTS,"Psychology, Technology and Society",2nd 50% of CSE,"Rajbala Singh, Anu Malik",Y17,125
+MME210,MEET,Modern Electrical and Elelctronics Technologies,ME,Gaurav Chaterjee,Y17,100
+MME205,MOS,Mechanics of Solids,ME,A K Dargar,Y17,100
+MME205(L),MOS Lab,Mechanics of Solids Lab,ME,A K Dargar,Y17,100
+MME211,MT 1,Manufacturing Technology 1,ME,"Manoj Kumar, Mayank Modak",Y17,100
+MME211(L),MT 1 Lab,Manufacturing Technology 1 Lab,ME,"Manoj Kumar, Mayank Modak",Y17,100
+MME209,ET,Engineering Thermodynamics,ME,K K Khatri,Y17,100
+MME212,IEM,Industrial Engineering and Management,ME,"Vikram Sharma, Deepak Unnune",Y17,100
+CSE328,AI,Artificial Intelligence,CSE+CCE,"Kshitiz Verma, Puneet Jain",Y16,350
+CSE327,IDS,Introduction to Data Science,CSE+CCE,"Subrat K Dash, Sakthi Balan",Y16,350
+CSE321,SWE,Software Engineering,CSE+CCE,"Vikas Bajpai, R P Gorthi",Y16,350
+CSE329,CS,Computer Security,CSE,"Hemant Mehta, Shweta Bhandari",Y16,250
+ECE325,DC,Digital Communication,ECE+CCE,"S Debnath, Nikhil Sharma",Y16,250
+ECE326,DSP,Digital Signal Processing,ECE+CCE,"Divyang Rawal, Navneet Upadhyay",Y16,250
+HSS203,PTS,"Psychology, Technology and Society",ECE+MTRE,"Rajbala Singh, Anu Malik",Y16,250
+ECE331,MICROI,Microprocessor & Interface,ECE,Abhishek Sharma,Y16,150
+HSS204,EFE,Economics for Engineers,CCE+ME,S S Nehra,Y16,150
+CSE3171,IS&M,Introduction to Simulation & Modeling,Program Elective 5th Sem CSE,Sudheer Sharma,Y16,100
+CSE3082,IR,Information Retreval,Program Elective 5th Sem CSE,Mukesh Jadon,Y16,100
+CSE3181,IMAD,Introduction to mobile Application Development,Program Elective 5th Sem CSE,Shweta Bhandari,Y16,100
+CSE3042,UMC,Unconventional Models of Computation,Program Elective 5th Sem CSE,Sakthi Balan,Y16,100
+CSE3101,GAA,Genetic Algorithms and Applications,Program Elective 5th Sem CSE,Vibhor Kant,Y16,100
+CSE3191,MPA,Multimedia Processing and Applications,Program Elective 5th Sem CSE,Anukriti Bansal,Y16,100
+ECE3031,IGCN,Introduction to Green Communication and Networking,Program Elective 5th Sem ECE,Purnendu Karmakar,Y16,100
+ECE3021,EMPS,Electrical Machines & Power Systems,Program Elective 5th Sem ECE,R Tomar,Y16,100
+MME4031,ICHEM,Industrial Chemistry,Program Elective 5th Sem ME,Arpi Majumder,Y16,100
+MME3032,UMP,Unconverntional Machine Process,Program Elective 5th Sem ME,Deepak Unnune,Y16,100
+MME3031,MSI,Mechatronics System Interface,Compulsory Program Elective 5th Sem ME (MTRE),Mohit Makker,Y16,100
+MME3031(L),MSI Lab.,Mechatronics System Interface Lab.,Compulsory Program Elective 5th Sem ME (MTRE),Mohit Makker,Y16,100
+MME3041,VD,Vehicle Dynamics,Compulsory Program Elective 5th Sem ME (AT),Prabin Kumar Jha,Y16,100
+MME3041(L),VD Lab.,Vehicle Dynamics Lab,Compulsory Program Elective 5th Sem ME (AT),Prabin Kumar Jha,Y16,100
+CSE3171,FNFT,Functional and Non Functional Testing,Program Elective 7th Sem CSE+CCE,"Ravi P Gorthi, Vikas Bajpai",Y15,100
+CSE4081,CC,Cloud Computing,Program Elective 7th Sem CSE+CCE,Hemant Mehta,Y15,100
+CSE4111,CPSDS,Cyber-Physical Systems: Design & Security,Program Elective 7th Sem CSE+CCE,Rajul Banerjee,Y15,100
+CSE4011,DM,Data Mining,Program Elective 7th Sem CSE+CCE,Subrat K Dash,Y15,100
+CSE3021,RTS,Real Time Systems,Program Elective 7th Sem CSE+CCE,Sunil Kumar,Y15,100
+CSE4121,DL,Deep Learning,Program Elective 7th Sem CSE+CCE,Kshitiz Verma,Y15,100
+CSE4131,IIOT,Introduction to Internet of Things (Mooc Course in lieu of PES),Program Elective 7th Sem CSE+CCE,"Rajbir K, Sunil K",Y15,100
+CSE4141,BADUC,Blockchain Architecture Design and Use- cases (Mooc Course in lieu of PES),Program Elective 7th Sem CSE+CCE,Hemant Mehta,Y15,100
+ECE4021,MDC,Modern Digital Communication,Program Elective 7th Sem ECE+CCE,"R Gangopadhyay, S Debnath",Y15,100
+ECE3051,ITC,Informatin Theory and Coding,Program Elective 7th Sem ECE+CCE,"Joyeeta S, Divyang R",Y15,100
+ECE4121,DFT,Design for Testability,Program Elective 7th Sem ECE+CCE,Kusum Lata,Y15,100
+ECE4141,IIP,Introduction to Image Processing,Program Elective 7th Sem ECE+CCE,Joyeeta S,Y15,100
+MME3041,RFE,Radio Frequency Engineering,Program Elective 7th Sem ECE+CCE,R Tomar,Y15,100
+ECE4052,AVLSIC,Analog VLSI Circuits,Program Elective 7th Sem ECE+CCE,Kapil Jainwal,Y15,100
+MME4121,ATE,Applied Thermodyamics Engineering,Program Elective 7th Sem ME+MTRE,Mayank Modak,Y15,100
+MME4021,CFD,Computational Fluid Dynamics,Program Elective 7th Sem ME+MTRE,"K K Khatri, Deepak Selva Kumar",Y15,100
+MME4101,MVIB,Mechanical Vibration,Program Elective 7th Sem ME+MTRE,A K Dargar,Y15,100
+MME4111,AMOS,Advance Mechanics of Solids,Program Elective 7th Sem ME+MTRE,Manoj Kumar,Y15,100
+ECE3032,AUTOSAR,Autosar and Infotainment,Other Elective 7th Sem All,Abhishek Sharma,Y15,100
+HSS4081,ECLSA,Ethnic Conflict: Literature and South Asia,Other Elective 7th Sem All,Narendra Kumar,Y15,100
+HSS3081,TSAI,The SELF: Aspects and Implications,Other Elective 7th Sem All,Rajbala S,Y15,100
+HSS4151,CIWW,Contemporary Indian Women Writer,Other Elective 7th Sem All,Payel Pal,Y15,100
+HSS4111,BFSS,Basics of Finance and Soft Skills,Other Elective 7th Sem All,A P Singh,Y15,100
+PHY4081,SBA,Superconductivity: Basics and Applications,Other Elective 7th Sem All,Nabyendu Das,Y15,100
+PHY4091,IBP,Introduction to Biophysics,Other Elective 7th Sem All,Ashok Garai,Y15,100
+PHY4101,QCQI,Quantum Computing and Quantum Informatiop,Other Elective 7th Sem All,Rakesh Tibrewala,Y15,100
+MTH4011,ISP,Introduction to Stochastic Processes,Other Elective 7th Sem All,Sunil Kumar Gauttam,Y15,100
+MTH4021,OPTI,Optimization,Other Elective 7th Sem All,Somnath Maiti,Y15,100
