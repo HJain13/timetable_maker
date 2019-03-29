@@ -17,6 +17,12 @@ for slot in range(odd_day_slots):
     odd_day_morning.append([0] * no_of_lt)
     odd_day_evening.append([0] * no_of_lt)
 
+def check_clash(slot, teacher, subject):
+    for lt in slot:
+        if teacher in str(lt) and subject not in str(lt):
+            return False
+    return True
+
 with open('data.csv') as data_csv:
     data = csv.reader(data_csv, delimiter=',')
     for index, subject in enumerate(data):
@@ -63,133 +69,149 @@ with open('data.csv') as data_csv:
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_morning[slot][0] == 0 and even_day_morning[slot][1] == 0:
-                                even_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_morning[slot],subject[4],subject[1])):
+                                    even_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_morning[slot][0] == 0 and odd_day_morning[slot][1] == 0:
-                                odd_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_morning[slot],subject[4],subject[1])):
+                                    odd_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_morning[slot][8] == 0 and even_day_morning[slot][9] == 0:
-                                even_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_morning[slot],subject[4],subject[1])):
+                                    even_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_morning[slot][8] == 0 and odd_day_morning[slot][9] == 0:
-                                odd_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_morning[slot],subject[4],subject[1])):
+                                    odd_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
 
                 elif "ECE" in subject[3] and subject[5] == "II":
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_evening[slot][0] == 0 and even_day_evening[slot][1] == 0:
-                                even_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_evening[slot],subject[4],subject[1])):
+                                    even_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_evening[slot][0] == 0 and odd_day_evening[slot][1] == 0:
-                                odd_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_evening[slot],subject[4],subject[1])):
+                                    odd_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_evening[slot][8] == 0 and even_day_evening[slot][9] == 0:
-                                even_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_evening[slot],subject[4],subject[1])):
+                                    even_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_evening[slot][8] == 0 and odd_day_evening[slot][9] == 0:
-                                odd_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_evening[slot],subject[4],subject[1])):
+                                    odd_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
 
                 elif "ECE" in subject[3] and subject[5] == "III":
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_morning[slot][0] == 0 and even_day_morning[slot][1] == 0:
-                                even_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_morning[slot],subject[4],subject[1])):
+                                    even_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_morning[slot][0] == 0 and odd_day_morning[slot][1] == 0:
-                                odd_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_morning[slot],subject[4],subject[1])):
+                                    odd_day_morning[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_morning[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_morning[slot][8] == 0 and even_day_morning[slot][9] == 0:
-                                even_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_morning[slot],subject[4],subject[1])):
+                                    even_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_morning[slot][8] == 0 and odd_day_morning[slot][9] == 0:
-                                odd_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_morning[slot],subject[4],subject[1])):
+                                    odd_day_morning[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_morning[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
 
                 elif "CSE" in subject[3] and subject[5] == "III":
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_evening[slot][0] == 0 and even_day_evening[slot][1] == 0:
-                                even_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_evening[slot],subject[4],subject[1])):
+                                    even_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_evening[slot][0] == 0 and odd_day_evening[slot][1] == 0:
-                                odd_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_evening[slot],subject[4],subject[1])):
+                                    odd_day_evening[slot][0] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_evening[slot][1] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(even_day_slots):
                             if even_day_evening[slot][8] == 0 and even_day_evening[slot][9] == 0:
-                                even_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                even_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(even_day_evening[slot],subject[4],subject[1])):
+                                    even_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    even_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
                 
                     if alloted == False:
                         for slot in range(odd_day_slots):
                             if odd_day_evening[slot][8] == 0 and odd_day_evening[slot][9] == 0:
-                                odd_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
-                                odd_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
-                                alloted = True
-                                break
+                                if(check_clash(odd_day_evening[slot],subject[4],subject[1])):
+                                    odd_day_evening[slot][8] = subject[1] + " - A1" + " | " + subject[4]
+                                    odd_day_evening[slot][9] = subject[1] + " - A2" + " | " + subject[4]
+                                    alloted = True
+                                    break
 
             elif int(subject[6]) > 100 and alloted == False:
                 if "CSE" in subject[3] and subject[5] == "II":
