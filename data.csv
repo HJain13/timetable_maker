@@ -29,43 +29,43 @@ MME205,MOS,Mechanics of Solids,ME,A K Dargar,II,100
 MME211,MT 1,Manufacturing Technology 1,ME,"Manoj Kumar, Mayank Modak",II,100
 MME209,ET,Engineering Thermodynamics,ME,K K Khatri,II,100
 MME212,IEM,Industrial Engineering and Management,ME,"Vikram Sharma, Deepak Unnune",II,100
-CSE3171,IS&M,Introduction to Simulation & Modeling,Program Elective 5th Sem CSE,Sudheer Sharma,III,100
-CSE3082,IR,Information Retreval,Program Elective 5th Sem CSE,Mukesh Jadon,III,100
-CSE3181,IMAD,Introduction to mobile Application Development,Program Elective 5th Sem CSE,Shweta Bhandari,III,100
-CSE3042,UMC,Unconventional Models of Computation,Program Elective 5th Sem CSE,Sakthi Balan,III,100
-CSE3101,GAA,Genetic Algorithms and Applications,Program Elective 5th Sem CSE,Vibhor Kant,III,100
-CSE3191,MPA,Multimedia Processing and Applications,Program Elective 5th Sem CSE,Anukriti Bansal,III,100
-ECE3031,IGCN,Introduction to Green Communication and Networking,Program Elective 5th Sem ECE,Purnendu Karmakar,III,100
-ECE3021,EMPS,Electrical Machines & Power Systems,Program Elective 5th Sem ECE,R Tomar,III,100
-MME4031,ICHEM,Industrial Chemistry,Program Elective 5th Sem ME,Arpi Majumder,III,100
-MME3032,UMP,Unconverntional Machine Process,Program Elective 5th Sem ME,Deepak Unnune,III,100
-MME3031,MSI,Mechatronics System Interface,Compulsory Program Elective 5th Sem ME (MTRE),Mohit Makker,III,100
-MME3041,VD,Vehicle Dynamics,Compulsory Program Elective 5th Sem ME (AT),Prabin Kumar Jha,III,100
-CSE3171,FNFT,Functional and Non Functional Testing,Program Elective 7th Sem CSE+CCE,"Ravi P Gorthi, Vikas Bajpai",IV,100
-CSE4081,CC,Cloud Computing,Program Elective 7th Sem CSE+CCE,Hemant Mehta,IV,100
-CSE4111,CPSDS,Cyber-Physical Systems: Design & Security,Program Elective 7th Sem CSE+CCE,Rajul Banerjee,IV,100
-CSE4011,DM,Data Mining,Program Elective 7th Sem CSE+CCE,Subrat K Dash,IV,100
-CSE3021,RTS,Real Time Systems,Program Elective 7th Sem CSE+CCE,Sunil Kumar,IV,100
-CSE4121,DL,Deep Learning,Program Elective 7th Sem CSE+CCE,Kshitiz Verma,IV,100
-CSE4131,IIOT,Introduction to Internet of Things (Mooc Course in lieu of PES),Program Elective 7th Sem CSE+CCE,"Rajbir K, Sunil K",IV,100
-CSE4141,BADUC,Blockchain Architecture Design and Use- cases (Mooc Course in lieu of PES),Program Elective 7th Sem CSE+CCE,Hemant Mehta,IV,100
-ECE4021,MDC,Modern Digital Communication,Program Elective 7th Sem ECE+CCE,"R Gangopadhyay, S Debnath",IV,100
-ECE3051,ITC,Informatin Theory and Coding,Program Elective 7th Sem ECE+CCE,"Joyeeta S, Divyang R",IV,100
-ECE4121,DFT,Design for Testability,Program Elective 7th Sem ECE+CCE,Kusum Lata,IV,100
-ECE4141,IIP,Introduction to Image Processing,Program Elective 7th Sem ECE+CCE,Joyeeta S,IV,100
-MME3041,RFE,Radio Frequency Engineering,Program Elective 7th Sem ECE+CCE,R Tomar,IV,100
-ECE4052,AVLSIC,Analog VLSI Circuits,Program Elective 7th Sem ECE+CCE,Kapil Jainwal,IV,100
-MME4121,ATE,Applied Thermodyamics Engineering,Program Elective 7th Sem ME+MTRE,Mayank Modak,IV,100
-MME4021,CFD,Computational Fluid Dynamics,Program Elective 7th Sem ME+MTRE,"K K Khatri, Deepak Selva Kumar",IV,100
-MME4101,MVIB,Mechanical Vibration,Program Elective 7th Sem ME+MTRE,A K Dargar,IV,100
-MME4111,AMOS,Advance Mechanics of Solids,Program Elective 7th Sem ME+MTRE,Manoj Kumar,IV,100
-ECE3032,AUTOSAR,Autosar and Infotainment,Other Elective 7th Sem All,Abhishek Sharma,IV,100
-HSS4081,ECLSA,Ethnic Conflict: Literature and South Asia,Other Elective 7th Sem All,Narendra Kumar,IV,100
-HSS3081,TSAI,The SELF: Aspects and Implications,Other Elective 7th Sem All,Rajbala S,IV,100
-HSS4151,CIWW,Contemporary Indian Women Writer,Other Elective 7th Sem All,Payel Pal,IV,100
-HSS4111,BFSS,Basics of Finance and Soft Skills,Other Elective 7th Sem All,A P Singh,IV,100
-PHY4081,SBA,Superconductivity: Basics and Applications,Other Elective 7th Sem All,Nabyendu Das,IV,100
-PHY4091,IBP,Introduction to Biophysics,Other Elective 7th Sem All,Ashok Garai,IV,100
-PHY4101,QCQI,Quantum Computing and Quantum Informatiop,Other Elective 7th Sem All,Rakesh Tibrewala,IV,100
-MTH4011,ISP,Introduction to Stochastic Processes,Other Elective 7th Sem All,Sunil Kumar Gauttam,IV,100
-MTH4021,OPTI,Optimization,Other Elective 7th Sem All,Somnath Maiti,IV,100
+CSE3171,IS&M,Introduction to Simulation & Modeling,PE CSE,Sudheer Sharma,III,100
+CSE3082,IR,Information Retreval,PE CSE,Mukesh Jadon,III,100
+CSE3181,IMAD,Introduction to mobile Application Development,PE CSE,Shweta Bhandari,III,100
+CSE3042,UMC,Unconventional Models of Computation,PE CSE,Sakthi Balan,III,100
+CSE3101,GAA,Genetic Algorithms and Applications,PE CSE,Vibhor Kant,III,100
+CSE3191,MPA,Multimedia Processing and Applications,PE CSE,Anukriti Bansal,III,100
+ECE3031,IGCN,Introduction to Green Communication and Networking,PE ECE,Purnendu Karmakar,III,100
+ECE3021,EMPS,Electrical Machines & Power Systems,PE ECE,R Tomar,III,100
+MME4031,ICHEM,Industrial Chemistry,PE ME,Arpi Majumder,III,100
+MME3032,UMP,Unconverntional Machine Process,PE ME,Deepak Unnune,III,100
+MME3031,MSI,Mechatronics System Interface,Compulsory PE ME (MTRE),Mohit Makker,III,100
+MME3041,VD,Vehicle Dynamics,Compulsory PE ME (AT),Prabin Kumar Jha,III,100
+CSE3171,FNFT,Functional and Non Functional Testing,PE CSE+CCE,"Ravi P Gorthi, Vikas Bajpai",IV,100
+CSE4081,CC,Cloud Computing,PE CSE+CCE,Hemant Mehta,IV,100
+CSE4111,CPSDS,Cyber-Physical Systems: Design & Security,PE CSE+CCE,Rajul Banerjee,IV,100
+CSE4011,DM,Data Mining,PE CSE+CCE,Subrat K Dash,IV,100
+CSE3021,RTS,Real Time Systems,PE CSE+CCE,Sunil Kumar,IV,100
+CSE4121,DL,Deep Learning,PE CSE+CCE,Kshitiz Verma,IV,100
+CSE4131,IIOT,Introduction to Internet of Things (Mooc Course in lieu of PES),PE CSE+CCE,"Rajbir K, Sunil K",IV,100
+CSE4141,BADUC,Blockchain Architecture Design and Use- cases (Mooc Course in lieu of PES),PE CSE+CCE,Hemant Mehta,IV,100
+ECE4021,MDC,Modern Digital Communication,PE ECE+CCE,"R Gangopadhyay, S Debnath",IV,100
+ECE3051,ITC,Informatin Theory and Coding,PE ECE+CCE,"Joyeeta S, Divyang R",IV,100
+ECE4121,DFT,Design for Testability,PE ECE+CCE,Kusum Lata,IV,100
+ECE4141,IIP,Introduction to Image Processing,PE ECE+CCE,Joyeeta S,IV,100
+MME3041,RFE,Radio Frequency Engineering,PE ECE+CCE,R Tomar,IV,100
+ECE4052,AVLSIC,Analog VLSI Circuits,PE ECE+CCE,Kapil Jainwal,IV,100
+MME4121,ATE,Applied Thermodyamics Engineering,PE ME+MTRE,Mayank Modak,IV,100
+MME4021,CFD,Computational Fluid Dynamics,PE ME+MTRE,"K K Khatri, Deepak Selva Kumar",IV,100
+MME4101,MVIB,Mechanical Vibration,PE ME+MTRE,A K Dargar,IV,100
+MME4111,AMOS,Advance Mechanics of Solids,PE ME+MTRE,Manoj Kumar,IV,100
+ECE3032,AUTOSAR,Autosar and Infotainment,OE All,Abhishek Sharma,IV,100
+HSS4081,ECLSA,Ethnic Conflict: Literature and South Asia,OE All,Narendra Kumar,IV,100
+HSS3081,TSAI,The SELF: Aspects and Implications,OE All,Rajbala S,IV,100
+HSS4151,CIWW,Contemporary Indian Women Writer,OE All,Payel Pal,IV,100
+HSS4111,BFSS,Basics of Finance and Soft Skills,OE All,A P Singh,IV,100
+PHY4081,SBA,Superconductivity: Basics and Applications,OE All,Nabyendu Das,IV,100
+PHY4091,IBP,Introduction to Biophysics,OE All,Ashok Garai,IV,100
+PHY4101,QCQI,Quantum Computing and Quantum Informatiop,OE All,Rakesh Tibrewala,IV,100
+MTH4011,ISP,Introduction to Stochastic Processes,OE All,Sunil Kumar Gauttam,IV,100
+MTH4021,OPTI,Optimization,OE All,Somnath Maiti,IV,100
